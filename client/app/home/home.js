@@ -6,6 +6,7 @@ angular.module('changingStatusApp')
       .state('home', {
         url: '/home',
         templateUrl: 'app/home/home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeCtrl',
+            controllerAs:'f'
       });
   });
