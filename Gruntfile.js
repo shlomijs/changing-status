@@ -1,4 +1,4 @@
-// Generated on 2015-08-05 using generator-angular-fullstack 2.1.0
+// Generated on 2015-08-25 using generator-angular-fullstack 2.1.1
 'use strict';
 
 module.exports = function (grunt) {
@@ -311,7 +311,7 @@ module.exports = function (grunt) {
     ngtemplates: {
       options: {
         // This should be the name of your apps angular module
-        module: 'changingStatusApp',
+        module: 'nhApp',
         htmlmin: {
           collapseBooleanAttributes: true,
           collapseWhitespace: true,

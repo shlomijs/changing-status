@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .controller('MainCtrl', function ($scope, $http) {
     $scope.awesomeThings = [];
 

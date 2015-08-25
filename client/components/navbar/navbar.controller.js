@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
       'title': 'Home',
-      'link': '/home'
+      'link': '/'
     }];
 
     $scope.isCollapsed = true;

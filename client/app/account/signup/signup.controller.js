@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .controller('SignupCtrl', function ($scope, Auth, $location, $window) {
     $scope.user = {};
     $scope.errors = {};

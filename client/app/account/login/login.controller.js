@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .controller('LoginCtrl', function ($scope, Auth, $location, $window) {
     $scope.user = {};
     $scope.errors = {};
@@ -15,7 +15,7 @@ angular.module('changingStatusApp')
         })
         .then( function() {
           // Logged in, redirect to home
-          $location.path('/home');
+          $location.path('/');
         })
         .catch( function(err) {
           $scope.errors.other = err.message;

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .factory('Modal', function ($rootScope, $modal) {
     /**
      * Opens a modal

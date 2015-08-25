@@ -1,9 +1,6 @@
 node_modules
 public
 .tmp
-.DS_Store
-client/.DS_Store
-client/assets/.DS_Store
 .idea
 client/bower_components
 dist

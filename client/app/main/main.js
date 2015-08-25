@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {
-        url: '/main',
+        url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });

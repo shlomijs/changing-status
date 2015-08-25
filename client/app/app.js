@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp', [
+angular.module('nhApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -9,7 +9,7 @@ angular.module('changingStatusApp', [
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
-      .otherwise('/home');
+      .otherwise('/');
 
     $locationProvider.html5Mode(true);
     $httpProvider.interceptors.push('authInterceptor');

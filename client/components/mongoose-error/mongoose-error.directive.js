@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .directive('mongooseError', function () {
     return {
       restrict: 'A',

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('changingStatusApp')
+angular.module('nhApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('admin', {
